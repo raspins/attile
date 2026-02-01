@@ -37,3 +37,4 @@ test-result
 tmp
 .idea_modules
 bin
+tailwind.sh
