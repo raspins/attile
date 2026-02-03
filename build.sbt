@@ -14,6 +14,9 @@ scalaVersion := "2.13.18"
 
 libraryDependencies += guice
 libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-http" % "10.6.3",
+  "com.typesafe.akka" %% "akka-actor-typed" % "2.9.3",
+  "com.typesafe.akka" %% "akka-http-spray-json" % "10.6.3",
   "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.2" % Test
 )
 
